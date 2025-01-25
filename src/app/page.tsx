@@ -4,14 +4,16 @@ import Image from "next/image";
 import Navbar from "./ui/navbar/navbar";
 import CollapseMenu from "./ui/collapseMenu/collpase-menu";
 import MainSection from "./ui/mainSection/main-section";
+import AboutUs from "./ui/aboutUs/about-us";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-top justify-items-center min-h-screen p-6 pb-10 gap-10 sm:p-10 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-1 row-start-2 items-center sm:items-start">
+    <div className="grid grid-rows-[10px_1fr_20px] items-top justify-items-center min-h-screen pt-4 pb-10 gap-4 sm:pt-6 sm:pb-6 font-[family-name:var(--font-geist-sans)]">
+    <main className="flex flex-col row-start-2 items-center sm:items-start w-full">
         <Navbar />
         <CollapseMenu />
         <MainSection />
+        <AboutUs />
       </main>
  
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">

@@ -26,7 +26,10 @@ export default function CollapseMenu() {
             </button>
             {!isCollapsed && (
                 <div className="mt-2 p-4 bg-gray-100 rounded-lg">
-                    <p>Este es el contenido expandido del menú.</p>
+                    <ul className="text-[#ab6b56]">
+                        <li>a</li>
+                        <li>b</li>
+                    </ul>
                 </div>
             )}
         </div>

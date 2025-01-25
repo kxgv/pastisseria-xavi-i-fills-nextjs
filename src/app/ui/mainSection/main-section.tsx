@@ -1,9 +1,9 @@
 import CarouselImages from "./carousel-images";
 export default function MainSection() {
     return (
-        <section className="text-center">
-            <h1 className="text-[38px]">Pasteles artesanales</h1>
-            <p className='description'>"Endulzamos tus momentos con la magia de lo artesanal."</p>
+        <section className="text-center"  style={{ backgroundColor: "#f7eae1" }} >
+            <h1 className="m-2 text-[#ab6b56]">Pasteles artesanales</h1>
+            <p className="text-[gray] m-2">"Endulzamos tus momentos con la magia de lo artesanal."</p>
 
             <CarouselImages />
 
